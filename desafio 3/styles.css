@@ -1,0 +1,106 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: bisque;
+    width: 100% ;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar h1 {
+
+    font-size: 60px;   
+}
+
+.navbar ul {
+    display: flex;
+    
+}
+
+.navbar li {
+    background-color: darkkhaki;
+    list-style: none;
+    padding: 5px 10px;
+    margin: 20px;
+    
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+
+}
+
+.hero {
+    height: 480px;
+    background-image: url(https://png.pngtree.com/background/20230614/original/pngtree-movie-cat-sitting-under-wet-picture-image_3521449.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+
+    height: 1500px;
+    padding: 50px;
+}
+
+.hero h1 {
+    color: #ffff;
+
+}
+
+.hero p {
+color: #ffff;
+
+}
+
+h1 {
+    background-color: bisque;
+    text-align: center;
+    height: 80px;
+}
+
+div {
+    width: 100%;
+    position: relative;
+}
+
+img {
+    width: 25%;
+    position: absolute;
+}
+
+p {
+    width: 60%;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    font-size: 20px;
+    padding: 50px; 
+}
+
+@media screen and (max-width: 480px) {
+    .navbar h1 {
+        font-size: 24px;
+        
+    }
+    .navbar nav {
+
+        display: none;
+    }
+
+}
